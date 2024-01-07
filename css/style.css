@@ -1,0 +1,41 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/pink-background-with-palm-tree.jpg");
+  background-size: cover;
+  background-position: fixed;
+  font-family: "Rubik Doodle Shadow", cursive;
+}
+.squere {
+  width: calc(33.3% - 40px);
+  height: 200px;
+  background-image: linear-gradient(to bottom right, #f05, rgb(255, 62, 126));
+  margin: 20px;
+  font-size: 100px;
+  border-radius: 15px;
+  box-shadow: -5px 2px 40px -9px rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  font-weight: 500;
+  margin: auto;
+}
+.title {
+  background-image: linear-gradient(to bottom right, #f05, rgb(255, 62, 126));
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 90px;
+  font-weight: 500;
+  text-shadow: 1px 1px 4px#000;
+}
+
+@media screen and (max-width: 786px) {
+  .title {
+    font-size: 50px;
+  }
+  .squere {
+    height: 150px;
+    font-size: 60px;
+  }
+}
